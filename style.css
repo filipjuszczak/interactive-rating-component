@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Overpass:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(216, 12%, 8%);
+}
+
+.card {
+  position: relative;
+  max-width: 43rem;
+  min-height: 43rem;
+  padding: 3.6rem;
+  border-radius: 19px;
+  background: radial-gradient(at 50% -5%, #232a34, #191e27);
+  background-color: red;
+}
+
+.form-box {
+  visibility: visible;
+}
+
+.form-box--hidden {
+  visibility: hidden;
+}
+
+.icon-box {
+  width: 4.8rem;
+  height: 4.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3.2rem;
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 18%);
+}
+
+.heading {
+  margin-bottom: 1.2rem;
+  font-size: 3rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.description {
+  margin-bottom: 3.2rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: hsl(217, 12%, 63%);
+}
+
+.rating-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.2rem;
+}
+
+.rating-btn {
+  width: 4.8rem;
+  height: 4.8rem;
+  font-family: inherit;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  color: hsl(217, 12%, 63%);
+  background-color: hsl(213, 19%, 18%);
+  transition: background-color 200ms, color 200ms;
+}
+
+.rating-btn:hover,
+.rating-btn:active {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(217, 12%, 63%);
+}
+
+.active {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 1.2rem;
+  font-family: inherit;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  letter-spacing: 1.6px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(25, 97%, 53%);
+  transition: background-color 200ms, color 200ms;
+}
+
+.submit-btn:hover,
+.submit-btn:active {
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(0, 0%, 100%);
+}
+
+.submitted-box {
+  visibility: visible;
+  position: absolute;
+  top: 10%;
+  left: 0;
+}
+
+.submitted-box--hidden {
+  visibility: hidden;
+}
+
+.img-box {
+  margin-bottom: 3.2rem;
+}
+
+.phone-img {
+  display: block;
+  margin: 0 auto;
+}
+
+.result {
+  width: fit-content;
+  padding: 1.2rem 2.4rem;
+  margin: 0 auto 3.2rem auto;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 100px;
+  color: hsl(25, 97%, 53%);
+  background-color: #262f38;
+}
+
+.submitted-box .heading {
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+
+.submitted-box .description {
+  margin-bottom: 0;
+  padding: 0 4.5rem 0 4.5rem;
+  text-align: center;
+}
