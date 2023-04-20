@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  font-size: 62.5%;
-}
-
 body {
   font-family: 'Overpass', sans-serif;
   font-weight: 400;
@@ -21,14 +17,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: hsl(216, 12%, 8%);
+  background-color: hsl(216 12% 8%);
 }
 
 .card {
   position: relative;
-  max-width: 43rem;
-  min-height: 43rem;
-  padding: 3.6rem;
+  max-width: 26.875rem;
+  min-height: 26.875rem;
+  padding: 2.25rem;
   border-radius: 19px;
   background: radial-gradient(at 50% -5%, #232a34, #191e27);
   background-color: red;
@@ -43,78 +39,78 @@ body {
 }
 
 .icon-box {
-  width: 4.8rem;
-  height: 4.8rem;
+  width: 3rem;
+  height: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 3.2rem;
+  margin-bottom: 2rem;
   border-radius: 50%;
-  background-color: hsl(213, 19%, 18%);
+  background-color: hsl(213 19% 18%);
 }
 
 .heading {
-  margin-bottom: 1.2rem;
-  font-size: 3rem;
-  color: hsl(0, 0%, 100%);
+  margin-bottom: 0.75rem;
+  font-size: 1.875rem;
+  color: hsl(0 0% 100%);
 }
 
 .description {
-  margin-bottom: 3.2rem;
-  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 0.9375rem;
   line-height: 1.5;
-  color: hsl(217, 12%, 63%);
+  color: hsl(217 12% 63%);
 }
 
 .rating-container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 3.2rem;
+  margin-bottom: 2rem;
 }
 
 .rating-btn {
-  width: 4.8rem;
-  height: 4.8rem;
+  width: 3rem;
+  height: 3rem;
   font-family: inherit;
-  font-size: 1.6rem;
+  font-size: 1rem;
   border: none;
   border-radius: 50%;
   cursor: pointer;
-  color: hsl(217, 12%, 63%);
-  background-color: hsl(213, 19%, 18%);
+  color: hsl(217 12% 63%);
+  background-color: hsl(213 19% 18%);
   transition: background-color 200ms, color 200ms;
 }
 
 .rating-btn:hover,
 .rating-btn:active {
-  color: hsl(0, 0%, 100%);
-  background-color: hsl(217, 12%, 63%);
+  color: hsl(0 0% 100%);
+  background-color: hsl(217 12% 63%);
 }
 
 .active {
-  color: hsl(0, 0%, 100%);
-  background-color: hsl(25, 97%, 53%);
+  color: hsl(0 0% 100%);
+  background-color: hsl(25 97% 53%);
 }
 
 .submit-btn {
   width: 100%;
-  padding: 1.2rem;
+  padding: 0.75rem;
   font-family: inherit;
-  font-size: 1.6rem;
+  font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 1.6px;
   border: none;
   border-radius: 100px;
   cursor: pointer;
-  color: hsl(0, 0%, 100%);
-  background-color: hsl(25, 97%, 53%);
+  color: hsl(0 0% 100%);
+  background-color: hsl(25 97% 53%);
   transition: background-color 200ms, color 200ms;
 }
 
 .submit-btn:hover,
 .submit-btn:active {
-  color: hsl(25, 97%, 53%);
-  background-color: hsl(0, 0%, 100%);
+  color: hsl(25 97% 53%);
+  background-color: hsl(0 0% 100%);
 }
 
 .submitted-box {
@@ -129,7 +125,7 @@ body {
 }
 
 .img-box {
-  margin-bottom: 3.2rem;
+  margin-bottom: 2rem;
 }
 
 .phone-img {
@@ -139,22 +135,22 @@ body {
 
 .result {
   width: fit-content;
-  padding: 1.2rem 2.4rem;
-  margin: 0 auto 3.2rem auto;
-  font-size: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  margin: 0 auto 2rem auto;
+  font-size: 0.9375rem;
   text-align: center;
   border-radius: 100px;
-  color: hsl(25, 97%, 53%);
+  color: hsl(25 97% 53%);
   background-color: #262f38;
 }
 
 .submitted-box .heading {
   text-align: center;
-  margin-bottom: 1.6rem;
+  margin-bottom: 1rem;
 }
 
 .submitted-box .description {
   margin-bottom: 0;
-  padding: 0 4.5rem 0 4.5rem;
+  padding: 0 2.8125rem 0 2.8125rem;
   text-align: center;
 }
